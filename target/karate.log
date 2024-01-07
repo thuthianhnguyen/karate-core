@@ -1,0 +1,61 @@
+16:51:12.597 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - Karate version: 1.4.1
+16:51:13.175 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:51:13.213 [com.intuit.karate.cli.Main.main()] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6
+16:51:15.546 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate - karate.env system property was: null 
+16:51:15.800 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - request:
+1 > GET https://api.realworld.io/api/tags
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.20)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:51:17.165 [com.intuit.karate.cli.Main.main()] DEBUG com.intuit.karate - response time in milliseconds: 1355
+1 < 200
+1 < Date: Mon, 25 Dec 2023 09:51:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1703497876&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=0vFdCZ2ws0%2BGhbze58UE7qs2f%2BrHKbIN1eDWji1xTrQ%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1703497876&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=0vFdCZ2ws0%2BGhbze58UE7qs2f%2BrHKbIN1eDWji1xTrQ%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"76-Frx7q70rrmrTv50MB4MX2rP8Pic"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 83b02f3d9c009e26-SIN
+1 < alt-svc: h3=":443"; ma=86400
+{"tags":["welcome","implementations","introduction","codebaseShow","ipsum","et","cupiditate","qui","quia","deserunt"]}
+
+16:51:18.140 [com.intuit.karate.cli.Main.main()] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/HomePage.feature
+17:26:07.681 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:26:09.743 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:26:10.419 [main] DEBUG com.intuit.karate - request:
+1 > GET https://api.realworld.io/api/tags
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.20)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:26:12.035 [main] DEBUG com.intuit.karate - response time in milliseconds: 1609
+1 < 200
+1 < Date: Mon, 25 Dec 2023 10:26:12 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1703499971&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=HYIXwM%2BAwfvd3FTtiWHZNIN3WmUwb3LL45gjTlUGNM4%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1703499971&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=HYIXwM%2BAwfvd3FTtiWHZNIN3WmUwb3LL45gjTlUGNM4%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"76-Frx7q70rrmrTv50MB4MX2rP8Pic"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 83b062655eac40ef-SIN
+1 < alt-svc: h3=":443"; ma=86400
+{"tags":["welcome","implementations","introduction","codebaseShow","ipsum","et","cupiditate","qui","quia","deserunt"]}
+
